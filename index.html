@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Farm Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .banner {
+            background-image: url('banner-image.jpg'); /* Placeholder for the banner image */
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .navbar {
+            background-color: #77654d;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #77654d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<div class="banner">
+    <h1>Welcome to Our Family Ranch - Iris Farm VA</h1>
+</div>
+
+<div class="container">
+    <h2 id="about">About Us</h2>
+    <p>Brief history of the family ranch...</p>
+
+    <h2 id="gallery">Gallery</h2>
+    <p>Images and activities from the ranch...</p>
+
+    <h2 id="contact">Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="email" placeholder="Email" name="email" required>
+        <textarea placeholder="Message" name="message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<div class="footer">
+    <p>© 2023 IceRiver LLC. All rights reserved.</p>
+</div>
+
+</body>
+</html>
