@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iris Farm Homepage</title>
+    <title>Family Ranch Homepage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
             color: #333;
         }
         .banner {
-            background-image: url('banner-image.jpg'); /* Placeholder for the banner image */
+            background-image: url('ranch_banner.jpg'); /* Placeholder for the AI-generated ranch image */
             background-size: cover;
             height: 300px;
             display: flex;
@@ -39,6 +39,17 @@
         }
         .container {
             padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .section {
+            flex: 1;
+            margin: 0 10px;
+            text-align: center;
+        }
+        .logo {
+            height: 100px; /* Placeholder height for logos */
+            margin: 10px auto;
         }
         .footer {
             background-color: #77654d;
@@ -49,39 +60,76 @@
             bottom: 0;
             width: 100%;
         }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .icon-facebook {
+            background-image: url('facebook-icon.png');
+        }
+        .icon-instagram {
+            background-image: url('instagram-icon.png');
+        }
     </style>
 </head>
 <body>
 
 <div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#gallery">Gallery</a>
+    <a href="#photos">Photos</a>
     <a href="#contact">Contact</a>
 </div>
 
 <div class="banner">
-    <h1>Welcome to Our Family Ranch - Iris Farm VA</h1>
+    <h1>Welcome to Our Family Ranch</h1>
+</div>
+
+<div class="navbar">
+    <a href="#iris-farm">Iris Farm</a>
+    <a href="#friday-cattery">Friday Cattery</a>
+    <a href="#about">About Us</a>
 </div>
 
 <div class="container">
-    <h2 id="about">About Us</h2>
-    <p>Brief history of the family ranch...</p>
+    <div class="section" id="iris-farm">
+        <h2>Iris Farm</h2>
+        <img src="logo-iris-farm.png" alt="Iris Farm Logo" class="logo">
+        <p>Brief description of Iris Farm...</p>
+        <div class="social-icons">
+            <span class="social-icon icon-facebook"></span>
+            <span class="social-icon icon-instagram"></span>
+        </div>
+    </div>
 
-    <h2 id="gallery">Gallery</h2>
-    <p>Images and activities from the ranch...</p>
+    <div class="section" id="friday-cattery">
+        <h2>Friday Cattery</h2>
+        <img src="logo-friday-cattery.png" alt="Friday Cattery Logo" class="logo">
+        <p>Brief description of Friday Cattery...</p>
+        <div class="social-icons">
+            <span class="social-icon icon-facebook"></span>
+            <span class="social-icon icon-instagram"></span>
+        </div>
+    </div>
 
-    <h2 id="contact">Contact Us</h2>
-    <form>
-        <input type="text" placeholder="Name" name="name" required>
-        <input type="email" placeholder="Email" name="email" required>
-        <textarea placeholder="Message" name="message" required></textarea>
-        <button type="submit">Send</button>
-    </form>
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <img src="logo-about-us.png" alt="About Us Logo" class="logo">
+        <p>Brief description of the ranch...</p>
+        <div class="social-icons">
+            <span class="social-icon icon-facebook"></span>
+            <span class="social-icon icon-instagram"></span>
+        </div>
+    </div>
 </div>
 
 <div class="footer">
-    <p>© 2023 IceRiver LLC. All rights reserved.</p>
+    <p>© 2023 Family Ranch. All rights reserved.</p>
 </div>
 
 </body>
