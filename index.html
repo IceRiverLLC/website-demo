@@ -1,135 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Family Ranch Homepage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .banner {
-            background-image: url('ranch_banner.jpg'); /* Placeholder for the AI-generated ranch image */
-            background-size: cover;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-shadow: 1px 1px 2px black;
-        }
-        .navbar {
-            background-color: #77654d;
-            overflow: hidden;
-        }
-        .navbar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .container {
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-        }
-        .section {
-            flex: 1;
-            margin: 0 10px;
-            text-align: center;
-        }
-        .logo {
-            height: 100px; /* Placeholder height for logos */
-            margin: 10px auto;
-        }
-        .footer {
-            background-color: #77654d;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .social-icons {
-            margin-top: 10px;
-        }
-        .social-icon {
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            margin: 0 5px;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        .icon-facebook {
-            background-image: url('facebook-icon.png');
-        }
-        .icon-instagram {
-            background-image: url('instagram-icon.png');
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Family Ranch in Virginia</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <style>
+            * {
+                box-sizing: border-box; /* Ensures padding and borders are included in total width and height */
+            }
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                color: #333;
+            }
+            .banner {
+                background-image: url('Ice-River.png'); /* Placeholder for the banner image */
+                background-size: cover;
+                height: 640px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                text-shadow: 1px 1px 2px black;
+                font-size: x-large;
+            }
+            .navbar {
+                background-color: #77654d;
+                overflow: hidden;
+            }
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .navbar a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+            .section {
+                margin-bottom: 20px;
+                padding: 20px;
+                border: 1px solid #ddd;
+            }
+            .section a {
+                color:#333;
+            }
+            .footer {
+                background-color: #77654d;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
+            .social-icons {
+                font-size: 24px;
+                margin-top: 10px;
+            }
+            .social-icons i {
+                margin-right: 10px;
+            }
+            .cta-button {
+                padding: 10px 20px;
+                width: 12em;
+                background-color: #f6bd6d; /* Changed color for better contrast */
+                color: white;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                margin: 5px;
+                transition: background-color 0.3s;
+                font-size: larger;
+            }
+            .cta-button:hover {
+                background-color: #ec971f;
+            }
+            .banner-content {
+                text-align: center;
+            }
+            .banner-buttons {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                gap: 40px;
+            }
+        </style>
+    </head>
+
 <body>
-
-<div class="navbar">
-    <a href="#photos">Photos</a>
-    <a href="#contact">Contact</a>
-</div>
-
-<div class="banner">
-    <h1>Welcome to Our Family Ranch</h1>
-</div>
 
 <div class="navbar">
     <a href="#iris-farm">Iris Farm</a>
     <a href="#friday-cattery">Friday Cattery</a>
     <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<div class="banner">
+    <div class="banner-content">
+        <h1>Welcome to Ice River LLC: A Haven of Fascinating Animals</h1>
+        <div class="banner-buttons">
+            <a href="#iris-farm" class="cta-button">Visit Iris Farm</a>
+            <a href="#friday-cattery" class="cta-button">Explore Friday Cattery</a>
+        </div>
+    </div>
 </div>
 
 <div class="container">
     <div class="section" id="iris-farm">
         <h2>Iris Farm</h2>
-        <img src="logo-iris-farm.png" alt="Iris Farm Logo" class="logo">
-        <p>Brief description of Iris Farm...</p>
+        <!-- Placeholder for logo -->
+        <p>
+            🔛Various Agricultural Products <br />
+            💬Contact Through Instagram / Facebook DM.  <br />
+            🗓Established in 2022 <br />
+            📍Blacksburg, Virginia</p>
         <div class="social-icons">
-            <span class="social-icon icon-facebook"></span>
-            <span class="social-icon icon-instagram"></span>
+            <a href="https://www.instagram.com/iris_farm_va/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61550346908114" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
         </div>
     </div>
 
     <div class="section" id="friday-cattery">
         <h2>Friday Cattery</h2>
-        <img src="logo-friday-cattery.png" alt="Friday Cattery Logo" class="logo">
-        <p>Brief description of Friday Cattery...</p>
+        <!-- Placeholder for logo -->
+        <p>
+            British Shorthair Golden Gradient Cattery <br />
+            Located in Virginia <br />
+            Imported domestic WCF champions <br />
+            TICA certified <br />
+            Surprise discounts available every Friday! 
+        </p>
         <div class="social-icons">
-            <span class="social-icon icon-facebook"></span>
-            <span class="social-icon icon-instagram"></span>
+            <a href="https://www.instagram.com/fulaicattery/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
 
     <div class="section" id="about">
         <h2>About Us</h2>
-        <img src="logo-about-us.png" alt="About Us Logo" class="logo">
-        <p>Brief description of the ranch...</p>
-        <div class="social-icons">
-            <span class="social-icon icon-facebook"></span>
-            <span class="social-icon icon-instagram"></span>
-        </div>
+        <p>Welcome to ICE RIVER LLC, an esteemed Agricultural Enterprise situated in the vibrant community of Christiansburg, Virginia. 
+            Founded in 2022, our company is dedicated to offering a wide and diverse range of services with an unwavering commitment to excellence and sustainability. 
+            We are experts in operating family-owned farms, the proficient sale and distribution of premium primary agricultural products, and the nurturing breeding and foster care of animals.</p>
+
+        <p>Adding to our comprehensive suite of services, ICE RIVER LLC proudly supplies fresh, high-quality meat to local restaurants, ensuring that our community enjoys the finest produce straight from our farms. 
+            This farm-to-table approach not only supports our local businesses but also guarantees that our customers receive the freshest, most flavorful meats available.</p>
+
+        <p>Moreover, we are deeply invested in environmental stewardship and sustainable practices. In this vein, we have initiated a program to recycle food wastes, contributing to a greener, more sustainable future. 
+            This initiative not only reduces waste but also reflects our commitment to responsible and eco-friendly practices in agriculture.</p>
+
+        <p>
+            At Iris Farm, you can discover a range of home-raised meats, celebrated for their unparalleled freshness and quality. We invite you to peruse our selections on our social media pages, where our farm-to-table journey is showcased.
+        </p>
+
+        <p>
+            For animal lovers and pet owners, our Friday Cattery Instagram page offers a haven for your beloved cats and dogs. We provide tailored care solutions, ensuring your pets receive the utmost attention and care in your absence. 
+            Please reach out to us via direct message for personalized pet care services.
+        </p>
+
+        <p>
+            We are also excited to share that we are enhancing the infrastructure of our ranch and breeding house. These improvements are geared towards our goal of opening our doors to the public in the near future. 
+            While these facilities are currently under renovation and not open for visits, we are looking forward to welcoming you to experience our operations firsthand once the renovations are completed.
+        </p>
+
+        <p>
+            At ICE RIVER LLC, we are more than just a business; we are a passionate community dedicated to agriculture, animal welfare, 
+            and environmental sustainability. We are eager to serve you and to share our passion for quality, care, and the environment.
+        </p>
+
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <p>For business inquiries, please contact us on our Instagram / Facebook page or email us at iceriverllc@yahoo.com.</p>
     </div>
 </div>
 
 <div class="footer">
-    <p>© 2023 Family Ranch. All rights reserved.</p>
+    <p>© 2023 Ice River LLC. All rights reserved.</p>
 </div>
 
 </body>
